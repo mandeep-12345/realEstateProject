@@ -1,10 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import Sidemenu from './component/sidemenu';
+import Navbar from './component/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <h1>real estate project</h1>
+    <Header />
+    <Sidemenu />
+     <Navbar />
+    
     </div>
   );
 }
