@@ -1,0 +1,126 @@
+body {
+    /* display: flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #F5F5F5;
+}
+.s3-Container {
+    max-width: 700px;
+    width: 424px;
+    padding: 106px 133px;
+    margin-left: 30%;
+    margin-top: 8%;
+    background: #fff;
+}
+.name{
+    font-weight: 500;
+}
+select#nme{
+    width: 55%;
+    height:42px;
+    border-radius: 9px;
+}
+.Posted{
+    font-weight: 500;
+}
+select#post{
+    width: 55%;
+    height:42px;
+    border-radius: 9px;
+}
+.PT{
+    font-weight: 500;
+}
+select#Pack{
+    width: 55%;
+    height:42px;
+    border-radius: 9px;
+}
+.calls{
+    font-weight: 500;
+    margin: 3px;
+}
+/* select#ProDes{
+    width: 50%;
+    height:15px;
+    border-radius: 8px;
+    margin-left: -1%;
+} */
+.sales{
+    font-weight: 500;
+}
+select#Sales{
+    width: 147%;
+    height:42px;
+    border-radius: 9px;
+}
+.ppd{
+    font-weight: 500;
+}
+select#PPdetails{
+    width: 149%;
+    height:42px;
+    border-radius: 9px;
+    font-weight: 100;
+    font-size: small;
+}
+form.General{
+    width: 99%;
+    height: 100vh;
+}
+div.mobile{
+    margin: 59%;
+    margin-top: -207px;
+}
+input#ProDes{
+    border-radius: 0.25rem;
+    width: 200px;
+    height: 15px;
+}
+div.sales{
+    margin-left: 63%;
+    margin-top: -284px;
+}
+div.PPD{
+    margin-left: 64%;
+}
+label{
+    font-weight: 500;
+}
+div.btn1{
+    margin-top: 107px;
+    display: grid;
+    margin-left: 25%;
+}
+button{
+    width: 139px;
+    border-radius: 2.25rem;
+    margin-top: 0%;
+    background-color: #6AB4F8;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    transition: .15s;
+    cursor: pointer;
+}
+div.btn2{
+    margin-left: 62%;
+    margin-top: -59px;
+    position: relative;
+}
+button#btn2{
+    width: 139px;
+    border-radius: 2.25rem;
+    background-color: #4C57B6;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    transition: .15s;
+    cursor: pointer;
+}

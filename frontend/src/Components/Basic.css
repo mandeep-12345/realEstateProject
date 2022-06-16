@@ -1,0 +1,117 @@
+body {
+    /* display: flex; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #F5F5F5;
+}
+.container {
+    max-width: 700px;
+    width: 200%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+
+
+.Negotable {
+    margin-left: 65%;
+    margin-top: -46%;
+}
+
+.OwnerShip {
+    margin-left: 65%;
+    margin-top: 0%;
+}
+
+.propertyapproved {
+    margin-left: 65%;
+    margin-top: 1%;
+}
+
+.bankloan {
+    margin-left: 65%;
+    margin-top: 8%;
+}
+
+
+.Negotable {
+    margin-left: 65%;
+    margin-top: -44%;
+}
+
+.OwnerShip {
+    margin-left: 65%;
+    margin-top: 0%;
+}
+
+.propertyapproved {
+    margin-left: 65%;
+    margin-top: 1%;
+}
+
+.bankloan {
+    margin-left: 65%;
+    margin-top: 1%;
+}
+
+select#property {
+    width: 41%;
+    border-radius: 11px;
+    padding: 2%;
+    margin: 1%;
+}
+
+select#propertyage {
+    padding: 12px;
+    width: 42%;
+    border-radius: 12px;
+    margin: 1%;
+}
+
+
+select#SelectNegotable {
+    width: 111%;
+    padding: 11px;
+    border-radius: 11px;
+    margin: 1%;
+}
+
+select#SelectOW {
+    width: 111%;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+select#PropAproves {
+    width: 110%;
+    padding: 5%;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+select#Loans {
+    width: 110%;
+    padding: 5%;
+    border-radius: 5px;
+}
+div.cncel {
+    margin-top: 3%;
+    margin-left: 29%;
+}
+
+div#savecont {
+    margin-left: 51%;
+    margin-top: -37px;
+}
+input[type="text"] {
+    padding: 12px;
+    margin: 15px;
+    border-radius: 7px;
+    padding: 2%;
+    width: 36%;
+}
