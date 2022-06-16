@@ -1,0 +1,10 @@
+.Grid-main-container {
+    width: 35vw;
+    background: darkseagreen;
+    margin-left: 25vw;
+}
+
+.Grid-container {
+    display: flex;
+    justify-content: space-around;
+}

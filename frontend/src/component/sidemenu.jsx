@@ -13,15 +13,15 @@ const Sidemenu = () => {
         <p className='logo'>Logo</p>
         </div>
       <div className='sidedata'>
-      <div className='imges'>
+      <div className='sidemenu-images'>
           
       
-          <img className='property imgs' src={Property} alt='proper'/>
-          <img className='bell imgs' src={bell} alt='property' />
-          <img className='received imgs' src={received} alt='property' />
-          <img className='sent imgs' src={sentIntrest} alt='property' />
-          <img className='views imgs' src={eye} alt='property' /> 
-          <img className='tariff imgs' src={tariff} alt='property' />
+          <img className='property menu-icons' src={Property} alt='proper'/>
+          <img className='bell menu-icons' src={bell} alt='property' />
+          <img className='received menu-icons' src={received} alt='property' />
+          <img className='sent menu-icons' src={sentIntrest} alt='property' />
+          <img className='views menu-icons' src={eye} alt='property' /> 
+          <img className='tariff menu-icons' src={tariff} alt='property' />
           </div>
           <ol className="sidbar-text-container">
           <li className="sidemenu-text">Property</li>

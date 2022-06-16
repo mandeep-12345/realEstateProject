@@ -1,24 +1,22 @@
-.header-id {
-    margin-left: 18vw;
-    width: 32rem;
+.sub-container {
+    margin-top: 2vh;
+    margin-left: 7vw;
+    width: 36vw;
     text-align: left;
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
     color: #B4B4C6;
     cursor: pointer;
 }
 
-.header-container {
-    background-color: antiquewhite;
-    width: 82.2vw;
-    height: 4rem;
-    margin-left: 16rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
+.main-container {
     display: flex;
+    background-color: rgb(233, 203, 164);
+    width: 81.8vw;
+    height: 8vh;
+    margin-left: 17vw;
+    
 }
 
 .logout {

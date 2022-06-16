@@ -6,8 +6,8 @@ import down from '../images/down.png'
 const Header = () =>{
 
     return (
-    <div className="header-container">
-      <div className="header-id"> </div>
+    <div className="main-container">
+      <div className="sub-container">USER ID </div>
       <div className="logout">
         <img className="user" src={userIcon} alt="user" />
 

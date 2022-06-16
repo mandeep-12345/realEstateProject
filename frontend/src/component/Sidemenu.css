@@ -16,8 +16,8 @@
     height: 46.5rem;
     background: #e1f9f4;
 }
-p.logo {
-    padding-top: 2vh;
+.logo {
+    padding-top: 5vh;
 }
 
 .sidedata {
@@ -80,13 +80,13 @@ img.tariff {
     cursor: pointer;
 }
 
-.imges {
+.sidemenu-images {
     margin-top: 0.4rem;
     display: flex;
     flex-direction: column;
 }
 
-img.imgs {
+.menu-icons{
     margin-bottom: 1rem;
     cursor: pointer;
 }
