@@ -1,0 +1,97 @@
+
+
+.sidemenu-head {
+    height: 14vh;
+    width: 75px;
+    margin: -7.2rem 0 0 5rem;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    color: #1a1b1c;
+}
+.sidemenu-container {
+    width: 17vw;
+    height: 46.5rem;
+    background: #e1f9f4;
+}
+.logo {
+    padding-top: 5vh;
+}
+
+.sidedata {
+    display: flex;
+    margin: 1rem 0 0 1rem;
+}
+.sidbar-text-container {
+    height: 402px;
+    width: 220px;
+    margin-top: 0px;
+    /* margin-left: 0px; */
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+    font-size: 22px;
+    line-height: 35px;
+    color: #2289ff;
+}
+
+
+img {
+    margin-right: 0;
+}
+
+img.property {
+    width: 1.5rem;
+}
+
+img.bell {
+    height: 1.5rem;
+    /* width: 24px; */
+}
+
+img.received {
+    height: 1.7rem;
+}
+
+img.sent {
+    height: 1.6rem;
+}
+
+img.views {
+    height: 0.9trm;
+}
+
+img.tariff {
+    height: 1.4rem;
+    margin-top: 0.5rem;
+    margin-left: 2px;
+    /* width: 20px; */
+}
+
+.viwes {
+    /* position: absolute; */
+    left: 25vw;
+    top: 30vh;
+    cursor: pointer;
+}
+
+.sidemenu-images {
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-icons{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+li.sidemenu-text {
+    margin-bottom: 0.35rem;
+    cursor: pointer;
+}
