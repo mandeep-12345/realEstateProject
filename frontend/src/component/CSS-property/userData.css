@@ -1,3 +1,6 @@
+* {
+  font-family: 'Source Sans Pro'
+}
 th#ppdid {
   width: 8rem;
   height: 25px;
@@ -34,7 +37,7 @@ th#ppdid {
 }
 
 .datatable-container {
-  width: calc(100% - 2rem);
+  width: calc(100% - 4rem);
   margin-left: 2rem;
   background: #ffffff;
   border-radius: 0px;

@@ -25,12 +25,12 @@ const DataTable = ({ searchkey }) => {
       if (res.status === "sucess") {
         setData(res.data);
       } else {
-        navigate("/Signin");
+        // navigate("/Signin");
       }
 
       console.log(res);
     } catch (error) {
-      navigate("/Signin");
+      // navigate("/Signin");
     }
   }
 

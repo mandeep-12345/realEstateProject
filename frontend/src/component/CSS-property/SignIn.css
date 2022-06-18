@@ -1,4 +1,7 @@
+
 * {
+  font-family: 'Source Sans Pro'
+}* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,10 +28,17 @@
   margin-left: 12vw;
 }
 
-.sign-in-form-container,
-.description {
+.sign-in-form-container{
   margin-top: 1vh;
   margin-left: 4vw;
+
+
+}
+
+.description{
+  position: relative;
+    top: 0.5vh;
+    left: 81px;
 }
 
 .sign-in-form-container input {
@@ -58,7 +68,7 @@
 .eye {
   position: absolute;
   left: 24vw;
-  top: 29vh;
+  top: 27vh;
   cursor: pointer;
 }
 
@@ -66,12 +76,12 @@
   position: absolute;
   width: 215px;
   height: 22px;
-  left: 610px;
-  top: 585px;
+  left: 45vw;
+  top: 90vh;
 }
 
 .signup {
-  /* margin-left: 35%; */
   margin-top: 10%;
   text-align: center;
+  color: #4C57B6;
 }

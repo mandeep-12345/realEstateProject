@@ -1,4 +1,7 @@
 * {
+  font-family: 'Source Sans Pro'
+}
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,10 +38,13 @@ a {
   height: 5vh;
 }
 .main {
+  margin-top: 11vh;
   display: flex;
   flex-direction: row;
   margin-right: 10%;
-  width: 100%;
+  width: 99%;
+  background: #F5F5F5;
+  border:1px solid ;
 }
 .form-container {
   margin: 10%;
@@ -47,17 +53,20 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 70%;
+  width: 60%;
+  position:relative;
+  bottom:10vh;
 }
 
 .form-container1 {
   margin: 5%;
-
   padding: 1%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 30%;
+  width: 29%;
+  position: relative;
+    bottom: 10vh;
 }
 
 h4 {
