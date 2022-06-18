@@ -2,7 +2,7 @@ const mongoose=require('mongoose')
 
 const connectDB = async () => {
     return mongoose
-      .connect('mongodb://0.0.0.0:27017/myapp')
+      .connect('mongodb://localhost:27017/RealEstatedb')
       .then(() => console.log(`connection to database established...`))
       .catch((err) => console.log(err));
   };

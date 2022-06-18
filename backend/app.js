@@ -15,7 +15,7 @@ app.use(require("cors")());
 
 app.get('/',(req,res)=>{
    
-    res.send("hello this is real estate app")
+    res.send("hello this is real estate app");
 })
 
 //routes
