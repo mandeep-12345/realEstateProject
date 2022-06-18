@@ -74,10 +74,10 @@ div.mobile{
     margin: 59%;
     margin-top: -207px;
 }
-input#ProDes{
+input#mobile{
     border-radius: 0.25rem;
-    width: 200px;
-    height: 15px;
+    width: 228px;
+    height: 37px;
 }
 div.sales{
     margin-left: 63%;
@@ -87,7 +87,7 @@ div.PPD{
     margin-left: 64%;
 }
 label{
-    font-weight: 500;
+    font-weight: 400;
 }
 div.btn1{
     margin-top: 107px;
@@ -109,7 +109,7 @@ button{
 }
 div.btn2{
     margin-left: 62%;
-    margin-top: -59px;
+    margin-top: -34px;
     position: relative;
 }
 button#btn2{

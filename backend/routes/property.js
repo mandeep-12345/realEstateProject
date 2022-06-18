@@ -9,7 +9,8 @@ router.post("/post", async (req, res) => {
         console.log(error)
         return res.status(400).json({ error: error.details[0].message })
     }
-    const { price,
+    const { 
+         price,
          propertyDescription,
          length,
          breadth,

@@ -17,10 +17,7 @@ body {
 }
 
 
-.Negotable {
-    margin-left: 65%;
-    margin-top: -46%;
-}
+
 
 .OwnerShip {
     margin-left: 65%;
@@ -40,29 +37,30 @@ body {
 
 .Negotable {
     margin-left: 65%;
-    margin-top: -44%;
+    margin-top: -56%;
 }
 
 .OwnerShip {
     margin-left: 65%;
-    margin-top: 0%;
+    margin-top: 3%;
 }
 
 .propertyapproved {
     margin-left: 65%;
-    margin-top: 1%;
+    margin-top: 7%;
 }
 
 .bankloan {
     margin-left: 65%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
-select#property {
+select#Property {
     width: 41%;
     border-radius: 11px;
     padding: 2%;
     margin: 1%;
+    border: 1px solid #C3C3C3;
 }
 
 select#propertyage {
@@ -70,6 +68,7 @@ select#propertyage {
     width: 42%;
     border-radius: 12px;
     margin: 1%;
+    border: 1px solid #C3C3C3;
 }
 
 
@@ -78,6 +77,7 @@ select#SelectNegotable {
     padding: 11px;
     border-radius: 11px;
     margin: 1%;
+    border: 1px solid #C3C3C3;
 }
 
 select#SelectOW {
@@ -85,6 +85,8 @@ select#SelectOW {
     padding: 5%;
     border-radius: 10px;
     margin: 1%;
+    border: 1px solid #C3C3C3;
+    font: Source Sans Pro;
 }
 
 select#PropAproves {
@@ -92,13 +94,14 @@ select#PropAproves {
     padding: 5%;
     border-radius: 5px;
     margin: 1%;
+    border: 1px solid #C3C3C3;
 }
 
 select#Loans {
     width: 110%;
     padding: 5%;
     border-radius: 5px;
-}
+    border: 1px solid #C3C3C3;}
 div.cncel {
     margin-top: 3%;
     margin-left: 29%;
@@ -106,7 +109,7 @@ div.cncel {
 
 div#savecont {
     margin-left: 51%;
-    margin-top: -37px;
+    margin-top: -34px;
 }
 input[type="text"] {
     padding: 12px;
@@ -114,4 +117,5 @@ input[type="text"] {
     border-radius: 7px;
     padding: 2%;
     width: 36%;
+    border: 1px solid #C3C3C3;
 }

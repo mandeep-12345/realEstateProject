@@ -5,6 +5,7 @@ const PropertySchema = mongoose.Schema({
 
   price: { type: Number, required: true },
   propertyDescription: { type: String, required: true },
+  // Property:{type: String, required: true},
 
   length: { type: Number, required: true },
   breadth: { type: Number, required: true },
@@ -26,8 +27,9 @@ const PropertySchema = mongoose.Schema({
 
 const validateDetails = (data) => {
   const schema = joi.object({
-    price:joi.number().min(7).max(10000000000).required(),
+    price :joi.number().min(4).max(1000000000).required(),
     propertyDescription:joi.string().min(4).max(50).required(),
+    // Property:joi.string().min(2).max(50).required(),
     length:joi.number().min(7).max(10000000000).required(),
     breadth:joi.number().min(7).max(10000000000).required(),
     electricity:joi.string().min(4).max(50).required(),
