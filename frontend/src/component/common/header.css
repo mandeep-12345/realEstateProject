@@ -1,7 +1,7 @@
+*{font-family: 'Source Sans Pro'}
 .header-id {
-    /* height: 25px; */
     width: 32rem;
-    /* left: 351px; */
+    margin-top: 10px;
     letter-spacing: 0em;
     text-align: left;
     font-family: 'Source Sans Pro';
@@ -13,20 +13,16 @@
     cursor: pointer;
 }
 .header-container {
-    height: 3rem;
+    width: 171.5vh;
+    height: 5rem;
     padding-left: 1rem;
     padding-top: 1rem;
     display: flex;
 }
 .logout {
     display: flex;
-    /* margin-right: 2vw; */
-    /* float: right; */
-    /* margin-left: -10rem; */
     margin-top: 0.5rem;
-
-    margin-left: 21rem;
-    /* width: 11rem; */
+    margin-left: 39rem;
     height: 3.2rem;
 }
 div.username {

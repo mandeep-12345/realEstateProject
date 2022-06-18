@@ -1,7 +1,16 @@
 * {
+  font-family: 'Source Sans Pro'
+}
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  .class-signin{
+    position: relative;
+    top: 41vh;
+      right: 17vw;
   }
   .sign-up-parent {
     display: flex;
@@ -27,7 +36,7 @@
   
   .sign-up-form-container p {
     margin-top: 2vh;
-    margin-left: 4vw;
+    margin-left: 10vw;
   }
   
   .sign-up-form-container input {

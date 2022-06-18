@@ -4,6 +4,7 @@ import { useState } from "react";
 import "../component/CSS-property/SignUp.css";
 import axios from "axios";
 import eye from "../images/eye.png";
+import { Link } from "react-router-dom";
 
 function Signup() {
   const [password, setPassword] = useState("");
@@ -112,9 +113,12 @@ function Signup() {
             </button>
           </form>
         </div>
-        {/* <Link to="/signin">
+        <div className="class-signin">
+         { <Link to="/signin">
         <h3>Sign In</h3>
-      </Link> */}
+      </Link> }
+        </div>
+       
       </div>
     );
   }

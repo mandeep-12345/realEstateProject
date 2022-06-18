@@ -1,3 +1,6 @@
+* {
+    font-family: 'Source Sans Pro'
+}
 .searchbar-container {
     display: flex;
 }
@@ -29,9 +32,10 @@ img#search {
     cursor: pointer;
 }
 button#search-btn {
-    margin-top: 0.5rem;
-    margin-left: 27rem;
-    background: #8fc7fa;
+    border: 1px #6AB4F8;
+        background: #6AB4F8;
+        margin-top: 3rem;
+        margin-left: 43rem;
     width: 11rem;
     height: 3.2rem;
     /* left: calc(100% - 35rem); */
