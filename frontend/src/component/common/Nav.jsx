@@ -2,7 +2,6 @@ import "./nav.css";
 export default function Nav() {
   return (
     <div className="nav">
-    
       <p className="choose">
         <span className="digit">1.</span> Basic info
       </p>
@@ -15,7 +14,6 @@ export default function Nav() {
       <p className="choose1">
         <span className="digit1">4.</span>Location info
       </p>
-    
     </div>
   );
 }

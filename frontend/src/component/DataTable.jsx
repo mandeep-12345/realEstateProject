@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 import "./CSS-property/userData.css";
 import Toggle from "./Toggle";
 
-const url = process.env.REACT_APP_API + "property";
+// const url = process.env.REACT_APP_API + "property";
+const url="http://localhost:5000/api/get";
 
 const DataTable = ({ searchkey }) => {
   const navigate = useNavigate();
@@ -25,25 +26,41 @@ const DataTable = ({ searchkey }) => {
       if (res.status === "sucess") {
         setData(res.data);
       } else {
-        // navigate("/Signin");
+       // navigate("/Signin");
       }
 
       console.log(res);
     } catch (error) {
-      // navigate("/Signin");
+    //  navigate("/Signin");
     }
   }
 
   useEffect(() => {
     getData();
-  }, );
+  }, []);
 
   const dataone = data.filter((Element) => Element.PPID.includes(searchkey));
 
   return (
     <>
       <div className="datatable-container">
-        <table>
+        <div className="heading"  >
+          <div className="table-heading ppid">PPID</div>
+          <div className="table-heading iamges">Image</div>
+          <div className="table-heading property">Property</div>
+          <div className="table-heading contact">Conatct</div>
+          <div className="table-heading area">Area</div>
+          <div className="table-heading views">Views</div>
+          <div className="table-heading status">Status</div>
+          <div className="table-heading days">Day's Left</div>
+          <div className="table-heading action">Action</div>
+        </div>
+        <div className="rowdata">
+        {dataone.map((obj, idx) => (
+              <Toggle key={idx} obj={obj} getData={getData} />
+            ))}
+        </div>
+        {/* <table>
           <thead>
             <tr>
               <th className="table-head ppdid" id="ppdid">
@@ -82,8 +99,9 @@ const DataTable = ({ searchkey }) => {
           </tbody>
         </table>
 
-        {/* </Table> */}
+        </Table> */}
       </div>
+      
     </>
   );
 };

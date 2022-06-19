@@ -5,7 +5,6 @@ import Header from "../../common/Header";
 import { Link, useNavigate } from "react-router-dom";
 import Nav from "./Nav";
 
-
 const PropertyInput = ({ user, data, setData }) => {
   // const [area,setArea]=useState("");
   const [length, setLength] = useState("");
@@ -26,9 +25,16 @@ const PropertyInput = ({ user, data, setData }) => {
   const handleSubmit = async (e) => {
     // e.preventDefault();
     console.log("data");
-    const length = parseInt(e.target.elements.length.value);
-    const width = parseInt(e.target.elements.width.value);
-    const area = parseInt(length * width);
+
+    const length=parseInt(e.target.elements.length.value);
+    const width=parseInt(e.target.elements.width.value);
+    const area=parseInt(length*width);
+    console.log(area)
+// =======
+//     const length = parseInt(e.target.elements.length.value);
+//     const width = parseInt(e.target.elements.width.value);
+//     const area = parseInt(length * width);
+// >>>>>>> d075d1ff51ecdd69819dd13b8a9a964318009ab3
     // setArea(area);
     setData({ ...data, Area: e.target.elements.area.value });
     navigate("/General");
@@ -45,17 +51,17 @@ const PropertyInput = ({ user, data, setData }) => {
 
         <div className="main">
           <form action="" className="form-basic" onSubmit={handleSubmit}>
-            <div className="form">
+            <div className="form-data1">
               <div className="form-container">
                 <h4>Length</h4>
                 <input
                   type="number"
                   id="length"
+                  required
                   value={length}
                   onChange={(e) => {
                     setLength(e.target.value);
                   }}
-
                   className="input"
                   placeholder="Example: 1000"
                 />
@@ -63,11 +69,11 @@ const PropertyInput = ({ user, data, setData }) => {
                 <input
                   type="text"
                   id="area"
-
-                  value={String(calulate(length, width)) === String(NaN) ? 0 : calulate(length, width)}
-                  
-                  
-
+                  value={
+                    String(calulate(length, width)) === String(NaN)
+                      ? 0
+                      : calulate(length, width)
+                  }
                   placeholder="Example: 7500"
                   className="input"
                 />
@@ -103,6 +109,7 @@ const PropertyInput = ({ user, data, setData }) => {
                 <input
                   type="number"
                   id="width"
+                  required
                   value={width}
                   onChange={(e) => {
                     setWidth(e.target.value);
@@ -148,7 +155,7 @@ const PropertyInput = ({ user, data, setData }) => {
 
             <div className="button">
               <Link to="/Basic">
-                <button className="btn1 ">Cancel</button>
+                <button className="btn1 ">Previous</button>
               </Link>
               <button className="btn2">Save & continue</button>
             </div>
