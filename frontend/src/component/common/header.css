@@ -1,28 +1,31 @@
-*{font-family: 'Source Sans Pro'}
 .header-id {
-    width: 32rem;
-    margin-top: 10px;
-    letter-spacing: 0em;
+    margin-top: 1vh;
+    width: 46vw;
+    cursor: pointer;
     text-align: left;
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 18px;
     line-height: 25px;
     color: #B4B4C6;
-    cursor: pointer;
+   
 }
 .header-container {
-    width: 171.5vh;
-    height: 5rem;
+    height: 4rem;
     padding-left: 1rem;
     padding-top: 1rem;
     display: flex;
 }
 .logout {
     display: flex;
+    /* margin-right: 2vw; */
+    /* float: right; */
+    /* margin-left: -10rem; */
     margin-top: 0.5rem;
-    margin-left: 39rem;
+
+    margin-left: 21rem;
+    /* width: 11rem; */
     height: 3.2rem;
 }
 div.username {
